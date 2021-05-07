@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-product = Product.create(name: "T-Shirt", price: 30, image_url: "", description: "Black tee with graphic")
-product = Product.create(name: "Hoodie", price: 45, image_url: "", description: "Oversized White hoodie with blue stripes")
-product = Product.create(name: "Dress", price: 60, image_url: "", description: "Floral Maxi Dress")
+Product.create(name: "T-Shirt", price: 30, image_url: "", description: "Black tee with graphic")
+Product.create(name: "Hoodie", price: 45, image_url: "", description: "Oversized White hoodie with blue stripes")
+Product.create(name: "Dress", price: 60, image_url: "", description: "Floral Maxi Dress")
+# create does not need a variable

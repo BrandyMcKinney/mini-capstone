@@ -1,5 +1,4 @@
 class Product < ApplicationRecord
- 
 end
 
-#this is inheriting
+#this is inheriting from application record
