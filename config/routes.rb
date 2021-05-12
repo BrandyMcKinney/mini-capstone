@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   post "/products" => "products#create"
   patch "/products/:id" => "products#update"
   delete "/products/:id" => "products#destroy"
+  post "/suppliers" => "suppliers#create"
+  patch "/suppliers/:id" => "suppliers#update"
 end
 
 #this is where you add products etc... delve into why?
